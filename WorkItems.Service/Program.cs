@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.ServiceProcess;
 using Microsoft.Owin.Hosting;
 
@@ -12,7 +13,8 @@ namespace WorkItems.Service
             {
                 try
                 {
-                    using (WebApp.Start<Startup>("http://127.0.0.1:9876"))
+                    var baseAddress = ConfigurationManager.AppSettings["BaseAddress"] ?? "http://localhost:8085/";
+                    using (WebApp.Start<Startup>(baseAddress))
                     {
                         Console.WriteLine("Service running... Press Enter to exit.");
                         Console.ReadLine();
