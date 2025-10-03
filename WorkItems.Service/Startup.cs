@@ -2,6 +2,7 @@ using System.Web.Http;
 using Microsoft.Owin;
 using Owin;
 using Serilog;
+using WorkItems.Service.Data;
 using WorkItems.Service.Utilities;
 
 [assembly: OwinStartup(typeof(WorkItems.Service.Startup))]
@@ -47,6 +48,13 @@ namespace WorkItems.Service
                 TimeSpan.FromSeconds(60),
                 TimeSpan.FromMinutes(5)
             );
+
+            // Seed the database with demo data (safe and idempotent)
+            using (var db = new WorkItemsDbContext())
+            {
+                db.Database.CreateIfNotExists(); // Ensures DB is created
+                db.EnsureSeedData();             // Seeds demo data if needed
+            }
         }
 
         // Add a method to dispose the worker on shutdown

@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkItems.Shared", "..\WorkItem\WorkItems.Shared\WorkItems.Shared.csproj", "{9ECB3128-D95C-4E6C-B0A8-FB2F6C5205C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkItems.Shared", "WorkItems.Shared\WorkItems.Shared.csproj", "{9ECB3128-D95C-4E6C-B0A8-FB2F6C5205C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkItems.Service", "..\WorkItem\WorkItems.Service\WorkItems.Service.csproj", "{966485CE-4854-4EE9-90B4-2569AF0AABF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkItems.Service", "WorkItems.Service\WorkItems.Service.csproj", "{966485CE-4854-4EE9-90B4-2569AF0AABF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkItems.Client", "..\WorkItem\WorkItems.Client\WorkItems.Client.csproj", "{5B07133C-6933-46A4-B9CB-90E10A86366C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkItems.Client", "WorkItems.Client\WorkItems.Client.csproj", "{5B07133C-6933-46A4-B9CB-90E10A86366C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		WorkItems.SOLUTION.md = WorkItems.SOLUTION.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
