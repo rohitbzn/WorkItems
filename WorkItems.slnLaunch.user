@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "WorkItems.Service\\WorkItems.Service.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "WorkItems.Client\\WorkItems.Client.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
