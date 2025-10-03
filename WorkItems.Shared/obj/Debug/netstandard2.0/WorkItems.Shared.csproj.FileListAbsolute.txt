@@ -8,3 +8,14 @@ C:\Users\rohit\source\repos\WorkItems\WorkItems.Shared\obj\Debug\netstandard2.0\
 C:\Users\rohit\source\repos\WorkItems\WorkItems.Shared\obj\Debug\netstandard2.0\WorkItems.Shared.csproj.CoreCompileInputs.cache
 C:\Users\rohit\source\repos\WorkItems\WorkItems.Shared\obj\Debug\netstandard2.0\WorkItems.Shared.dll
 C:\Users\rohit\source\repos\WorkItems\WorkItems.Shared\obj\Debug\netstandard2.0\WorkItems.Shared.pdb
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Shared\bin\Debug\netstandard2.0\WorkItems.Shared.deps.json
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Shared\bin\Debug\netstandard2.0\WorkItems.Shared.dll
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Shared\bin\Debug\netstandard2.0\WorkItems.Shared.pdb
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Shared\obj\Debug\netstandard2.0\WorkItems.Shared.csproj.AssemblyReference.cache
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Shared\obj\Debug\netstandard2.0\WorkItems.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Shared\obj\Debug\netstandard2.0\WorkItems.Shared.AssemblyInfoInputs.cache
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Shared\obj\Debug\netstandard2.0\WorkItems.Shared.AssemblyInfo.cs
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Shared\obj\Debug\netstandard2.0\WorkItems.Shared.csproj.CoreCompileInputs.cache
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Shared\obj\Debug\netstandard2.0\WorkItems.Shared.sourcelink.json
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Shared\obj\Debug\netstandard2.0\WorkItems.Shared.dll
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Shared\obj\Debug\netstandard2.0\WorkItems.Shared.pdb
