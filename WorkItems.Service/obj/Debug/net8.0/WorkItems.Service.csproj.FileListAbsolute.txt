@@ -76,3 +76,8 @@ C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Service\obj\Debug\net8.0\WorkItem
 C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Service\obj\Debug\net8.0\WorkItems.Service.genruntimeconfig.cache
 C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Service\obj\Debug\net8.0\ref\WorkItems.Service.dll
 C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Service\bin\Debug\net8.0\WorkItems.Service.dll.config
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Service\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Service\bin\Debug\net8.0\System.ServiceProcess.ServiceController.dll
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Service\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Service\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Service\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.ServiceProcess.ServiceController.dll

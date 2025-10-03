@@ -17,18 +17,28 @@ if (!(Test-Path $serviceExe)) {
 
 Write-Host "Starting the service..."
 $serviceProcess = Start-Process -FilePath $serviceExe -PassThru
+Write-Host "Service started with PID: $($serviceProcess.Id)"
 
-# Wait for the service to start up (adjust delay if needed)
-Start-Sleep -Seconds 5
+# Wait for the service to start up
+Start-Sleep -Seconds 10
 
-$healthUrl = "http://localhost:8085/api/v1/health"
+# Confirm service is still running
+if (!(Get-Process -Id $serviceProcess.Id -ErrorAction SilentlyContinue)) {
+    Write-Error "Service process exited prematurely."
+    exit 1
+}
+
+$healthUrl = "http://127.0.0.1:9876/api/v1/health"
 Write-Host "Calling health endpoint: $healthUrl"
+
 try {
     $response = Invoke-WebRequest -Uri $healthUrl -UseBasicParsing -TimeoutSec 10
     Write-Host "Health endpoint response:"
     Write-Host $response.Content
 } catch {
     Write-Error "Failed to call health endpoint: $_"
+    Stop-Process -Id $serviceProcess.Id -Force
+    exit 1
 }
 
 Write-Host "Stopping the service..."

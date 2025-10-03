@@ -1,0 +1,23 @@
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Net.HttpListenerException (183): Failed to listen on prefix 'http://127.0.0.1:9876/' because it conflicts with an existing registration on the machine.
+   at System.Net.HttpListener.AddPrefixCore(String registeredPrefix)
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at Microsoft.Owin.Host.HttpListener.OwinHttpListener.Start(HttpListener listener, Func`2 appFunc, IList`1 addresses, IDictionary`2 capabilities, Func`2 loggerFactory) in /_/src/Microsoft.Owin.Host.HttpListener/OwinHttpListener.cs:line 187
+   at Microsoft.Owin.Host.HttpListener.OwinServerFactory.Create(Func`2 app, IDictionary`2 properties) in /_/src/Microsoft.Owin.Host.HttpListener/OwinServerFactory.cs:line 100
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Microsoft.Owin.Hosting.ServerFactory.ServerFactoryAdapter.Create(IAppBuilder builder) in /_/src/Microsoft.Owin.Hosting/ServerFactory/ServerFactoryAdapter.cs:line 133
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.StartServer(StartContext context) in /_/src/Microsoft.Owin.Hosting/Engine/HostingEngine.cs:line 420
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context) in /_/src/Microsoft.Owin.Hosting/Engine/HostingEngine.cs:line 99
+   at Microsoft.Owin.Hosting.Starter.DirectHostingStarter.Start(StartOptions options) in /_/src/Microsoft.Owin.Hosting/Starter/DirectHostingStarter.cs:line 32
+   at Microsoft.Owin.Hosting.Starter.HostingStarter.Start(StartOptions options) in /_/src/Microsoft.Owin.Hosting/Starter/HostingStarter.cs:line 42
+   at Microsoft.Owin.Hosting.WebApp.StartImplementation(IServiceProvider services, StartOptions options) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 121
+   at Microsoft.Owin.Hosting.WebApp.Start(StartOptions options) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 88
+   at Microsoft.Owin.Hosting.WebApp.Start[TStartup](StartOptions options) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 61
+   at Microsoft.Owin.Hosting.WebApp.Start[TStartup](String url) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 47
+   at WorkItems.Service.Program.Main(String[] args) in C:\Users\rohit\Source\Repos\WorkItem\WorkItems.Service\Program.cs:line 15

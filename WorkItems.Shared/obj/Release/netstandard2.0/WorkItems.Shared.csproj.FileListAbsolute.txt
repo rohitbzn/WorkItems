@@ -1,0 +1,11 @@
+C:\Users\rohit\source\repos\WorkItem\WorkItems.Shared\bin\Release\netstandard2.0\WorkItems.Shared.deps.json
+C:\Users\rohit\source\repos\WorkItem\WorkItems.Shared\bin\Release\netstandard2.0\WorkItems.Shared.dll
+C:\Users\rohit\source\repos\WorkItem\WorkItems.Shared\bin\Release\netstandard2.0\WorkItems.Shared.pdb
+C:\Users\rohit\source\repos\WorkItem\WorkItems.Shared\obj\Release\netstandard2.0\WorkItems.Shared.csproj.AssemblyReference.cache
+C:\Users\rohit\source\repos\WorkItem\WorkItems.Shared\obj\Release\netstandard2.0\WorkItems.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohit\source\repos\WorkItem\WorkItems.Shared\obj\Release\netstandard2.0\WorkItems.Shared.AssemblyInfoInputs.cache
+C:\Users\rohit\source\repos\WorkItem\WorkItems.Shared\obj\Release\netstandard2.0\WorkItems.Shared.AssemblyInfo.cs
+C:\Users\rohit\source\repos\WorkItem\WorkItems.Shared\obj\Release\netstandard2.0\WorkItems.Shared.csproj.CoreCompileInputs.cache
+C:\Users\rohit\source\repos\WorkItem\WorkItems.Shared\obj\Release\netstandard2.0\WorkItems.Shared.sourcelink.json
+C:\Users\rohit\source\repos\WorkItem\WorkItems.Shared\obj\Release\netstandard2.0\WorkItems.Shared.dll
+C:\Users\rohit\source\repos\WorkItem\WorkItems.Shared\obj\Release\netstandard2.0\WorkItems.Shared.pdb
